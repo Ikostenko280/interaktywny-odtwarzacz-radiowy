@@ -1,0 +1,69 @@
+ 
+.app {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #121212;
+}
+
+ 
+.radio-container {
+  text-align: center;
+  background: #222;
+  color: #fff;
+  padding: 40px;
+  border-radius: 10px;
+  width: 100%;
+  max-width: 400px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+ 
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h2 {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+ 
+.station-select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+}
+
+ 
+.play-button {
+  width: 100%;
+  padding: 12px;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+
+.play-button.play {
+  background: green;
+  color: white;
+}
+
+.play-button.stop {
+  background: red;
+  color: white;
+}
+
+ 
+.footer {
+  margin-top: 20px;
+  font-size: 12px;
+  color: #aaa;
+}
